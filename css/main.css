@@ -96,9 +96,23 @@ ul {
   white-space: nowrap;
   width: 32px;
 }
-#instagram{
-  left:0;
-  background: url("/resume/images/sprites.png") repeat scroll -31px 0 rgba(0, 0, 0, 0);
+#instagram {
+  left: 0;
+  height: 34px;
+  width: 61px;
+  background: url("/resume/images/sprites.png") repeat scroll 0 0px rgba(0, 0, 0, 0);
+}
+#github {
+  left: 0;
+  height: 34px;
+  width: 61px;
+  background: url("/resume/images/sprites.png") repeat scroll 0 0px rgba(0, 0, 0, 0);
+}
+#linkedin {
+  left: 0;
+  height: 34px;
+  width: 61px;
+  background: url("/resume/images/sprites.png") repeat scroll 0 0px rgba(0, 0, 0, 0);
 }
 footer {
   position: absolute;
