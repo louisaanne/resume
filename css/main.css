@@ -79,19 +79,26 @@ ul {
 #socialicons {
   list-style-type: none;
   position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 #navlist li, #navlist a{
   display:block;
   float: left;
-  height: 31px;
+  height: 30px;
   margin: 10px 0 0;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
   width: 32px;
 }
-#facebook{
-    background: url("http://skillcrush.com/static/resume-two/images/social.png") repeat scroll -31px 0 rgba(0, 0, 0, 0);
+#instagram{
+  left:0;
+  background: url("/resume/images/spirtes.png") repeat scroll -31px 0 rgba(0, 0, 0, 0);
 }
 footer {
   position: absolute;
