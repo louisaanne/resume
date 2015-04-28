@@ -58,24 +58,6 @@ ul {
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px;
 }
-/*.social-media ul li {
-  float: left;
-  padding-top: 12px;
-}
-.social-media ul li.instagram a {
-  background: url('../images/social.png');
-  background-position: 0 0px;
-  margin-right: 5px;
-}
-.social-media ul li.github a {
-  background: url('../images/social.png');
-  background-position: 63px 62px;
-  margin-right: 3px;
-}
-.social-media ul li.linkedin a {
-  background-position: -160px 62px;
-  margin-right: 3px;
-}*/
 #socialicons {
   list-style-type: none;
   position: relative;
@@ -99,20 +81,22 @@ ul {
 #instagram {
   left: 0;
   height: 34px;
-  width: 61px;
-  background: url("/resume/images/sprites.png") repeat scroll 0 0px rgba(0, 0, 0, 0);
+  width: 39px;
+  background: url("/resume/images/sprites.png") repeat scroll 107px 0px rgba(0, 0, 0, 0);
+  display: inline-block;
 }
-#github {
+#google+ {
   left: 0;
   height: 34px;
-  width: 61px;
-  background: url("/resume/images/sprites.png") repeat scroll 0 0px rgba(0, 0, 0, 0);
+  width: 36px;
+  background: url("/resume/images/sprites.png") repeat scroll 233px 0px rgba(0, 0, 0, 0);
+  display: inline-block;
 }
 #linkedin {
-  left: 0;
   height: 34px;
-  width: 61px;
-  background: url("/resume/images/sprites.png") repeat scroll 0 0px rgba(0, 0, 0, 0);
+  width: 38px;
+  background: url("/resume/images/sprites.png") repeat scroll 141px 0px rgba(0, 0, 0, 0);
+  display: inline-block;
 }
 footer {
   position: absolute;
