@@ -8,17 +8,17 @@ body{
   -o-background-size: cover;
   background-size: cover;
   padding: 0px !important;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 #container {
   background: rgba(255, 255, 255, 0.9);
   float: right;
   margin-top: 40px;
-  width: 33%;
+  width: 30%;
   max-height: 50%;
   padding: 5px 0px 10px 20px;
   border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
+  border-top-left-radius: 0px;
 }
 h1 {
   font-size: 3.5em;
@@ -38,8 +38,8 @@ h3 {
 }
 p {
   color: #3b3b3b;
-    padding: 5px 30px 5px 10px;
-  line-height: 25px;
+  padding: 5px 30px 5px 10px;
+  line-height: 20px;
   margin: 0;
   font-size: .9em;
   font-family: Lato,sans-serif;
@@ -58,7 +58,7 @@ ul {
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px;
 }
-.social-media ul li {
+/*.social-media ul li {
   float: left;
   padding-top: 12px;
 }
@@ -75,6 +75,23 @@ ul {
 .social-media ul li.linkedin a {
   background-position: -160px 62px;
   margin-right: 3px;
+}*/
+#socialicons {
+  list-style-type: none;
+  position: relative;
+}
+#navlist li, #navlist a{
+  display:block;
+  float: left;
+  height: 31px;
+  margin: 10px 0 0;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 32px;
+}
+#facebook{
+    background: url("http://skillcrush.com/static/resume-two/images/social.png") repeat scroll -31px 0 rgba(0, 0, 0, 0);
 }
 footer {
   position: absolute;
