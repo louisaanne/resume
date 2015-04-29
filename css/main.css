@@ -80,7 +80,8 @@ ul {
 }
 #instagram {
   display:inline-block;
-  a{
+}
+li#instagram a{
   left: 0;
   height: 34px;
   width: 39px;
@@ -90,17 +91,19 @@ ul {
 }
 #google {
   display: inline-block;
-  a{
-    display:block;
+}
+li#google a{
+  display:block;
   left: 0;
   height: 34px;
   width: 36px;
   background: url("/resume/images/sprites.png") repeat scroll 233px 0px rgba(0, 0, 0, 0);
-  }
+
 }
 #linkedin {
   display:inline-block;
-  a{
+}
+li#linkedin a{
   height: 34px;
   width: 38px;
   background: url("/resume/images/sprites.png") repeat scroll 141px 0px rgba(0, 0, 0, 0);
