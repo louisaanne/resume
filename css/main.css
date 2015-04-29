@@ -79,7 +79,7 @@ ul {
   width: 32px;
 }
 #instagram {
-  display:inline-block;
+ display: inline-block !important;
 }
 li#instagram a{
   left: 0;
@@ -90,7 +90,7 @@ li#instagram a{
   }
 }
 #google {
-  display: inline-block;
+  display: inline-block !important;
 }
 li#google a{
   display:block;
@@ -101,7 +101,7 @@ li#google a{
 
 }
 #linkedin {
-  display:inline-block;
+  display: inline-block !important;
 }
 li#linkedin a{
   height: 34px;
