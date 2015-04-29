@@ -81,6 +81,9 @@ ul {
 #instagram {
  display: inline-block !important;
 }
+li#instagram{
+  display: inline-block !important;
+}
 li#instagram a{
   left: 0;
   height: 34px;
@@ -90,6 +93,9 @@ li#instagram a{
   }
 }
 #google {
+  display: inline-block !important;
+}
+li#google{
   display: inline-block !important;
 }
 li#google a{
@@ -103,6 +109,9 @@ li#google a{
 #linkedin {
   display: inline-block !important;
 }
+li#linkedin{
+  display: inline-block !important;
+}
 li#linkedin a{
   height: 34px;
   width: 38px;
@@ -111,6 +120,6 @@ li#linkedin a{
   }
 }
 footer {
-  position: absolute;
+  position: absolute !important;
   bottom: 10px;
 }
