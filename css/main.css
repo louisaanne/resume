@@ -119,7 +119,7 @@ li#linkedin a{
   display: block;
   }
 }
-footer {
+#footer {
   position: absolute !important;
   bottom: 10px;
 }
